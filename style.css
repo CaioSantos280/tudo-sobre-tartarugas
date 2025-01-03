@@ -1,10 +1,10 @@
 /* Estilos gerais */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
+    background-color: #f0f8ff;
     color: #333;
 }
 
@@ -12,61 +12,113 @@ header {
     background-color: #48cae4;
     color: #023047;
     text-align: center;
-    padding: 1.5rem 0;
+    padding: 2rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 
 main {
-    padding: 1.5rem;
+    padding: 2rem;
     max-width: 1200px;
     margin: 0 auto;
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f4f9fc; /* Novo fundo suave */
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
 section {
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+    background-color: #e0f7fa;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: #0077b6;
     border-bottom: 3px solid #0096c7;
     padding-bottom: 0.5rem;
     margin-bottom: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+section h3 {
+    font-size: 1.6rem;
+    color: #023047;
+    margin-top: 1rem;
+    font-weight: bold;
 }
 
 section p, section ul, section ol {
-    margin: 0 0 1rem 0;
+    margin: 0 0 1.5rem 0;
 }
 
 ul, ol {
     padding-left: 1.5rem;
 }
 
+ul li, ol li {
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+}
+
+ul li::before, ol li::before {
+    content: "✔";
+    color: #0077b6;
+    margin-right: 0.5rem;
+}
+
 .image-placeholder {
     max-width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 12px;
     display: block;
     margin: 1rem auto;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-placeholder:hover {
+    transform: scale(1.05);
 }
 
 footer {
     text-align: center;
-    padding: 1rem 0;
+    padding: 1.5rem 0;
     background-color: #023047;
     color: #ffffff;
     margin-top: 2rem;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
 }
 
 footer p {
     margin: 0;
-    font-size: 1rem;
+    font-size: 1.2rem;
+}
+
+/* Estilos para links */
+a {
+    color: #0096c7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #023047;
+}
+
+/* Efeitos de transição e hover em seções */
+section:hover {
+    background-color: #b3e0ff;
+    transform: translateY(-5px);
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
