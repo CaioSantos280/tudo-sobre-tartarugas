@@ -270,3 +270,9 @@ nav ul.menu li a:hover {
         width: calc(33.33% - 1rem); /* 3 itens por linha, com espaço entre eles */
     }
 }
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem; /* Ajuste o tamanho do título para telas menores */
+    }
+}
