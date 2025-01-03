@@ -4,13 +4,13 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f0f8ff;
+    background-color: #3e657c;
     color: #333;
 }
 
 header {
     background: linear-gradient(135deg, #48cae4, #0077b6);
-    color: #fff;
+    color: #dddddd;
     text-align: center;
     padding: 1rem 0;
 }
@@ -59,7 +59,7 @@ main {
     padding: 2rem;
     max-width: 1200px;
     margin: 0 auto;
-    background-color: #f4f9fc; /* Novo fundo suave */
+    background-color: #8db4ca; /* Novo fundo suave */
     border-radius: 12px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
@@ -258,6 +258,7 @@ nav ul.menu li a:hover {
 }
 
 
+
 @media (max-width: 768px) {
     nav ul.menu {
         display: flex;
@@ -270,12 +271,12 @@ nav ul.menu li a:hover {
         width: calc(33.33% - 1rem); /* 3 itens por linha, com espaço entre eles */
     }
 }
-
 @media (max-width: 768px) {
     header h1 {
         font-size: 2rem; /* Ajuste o tamanho do título para telas menores */
     }
 }
+
 @media (max-width: 768px) {
     nav ul.menu {
         display: flex;
@@ -297,8 +298,8 @@ nav ul.menu li a:hover {
     }
 
     nav ul.menu li {
-        width: 45%; /* Dois itens por linha */
-        margin-bottom: 1rem;
+        width: 30%; /* Ajusta para três itens por linha */
         text-align: center;
+        margin-bottom: 1rem;
     }
 }
