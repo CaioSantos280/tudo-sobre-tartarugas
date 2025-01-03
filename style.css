@@ -256,3 +256,27 @@ nav ul.menu li a:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
+
+@media (max-width: 768px) {
+    nav ul.menu {
+        gap: 2rem; /* Aumenta o espaçamento entre os itens */
+        flex-direction: column; /* Organiza os itens em coluna */
+    }
+
+    nav ul.menu li a {
+        padding: 0.8rem 1.5rem; /* Aumenta o preenchimento dos itens */
+    }
+}
+
+@media (max-width: 768px) {
+    nav ul.menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; /* Espaça os itens igualmente */
+        gap: 1rem;
+    }
+
+    nav ul.menu li {
+        width: 48%; /* Controla o tamanho dos itens para ficarem lado a lado */
+    }
+}
