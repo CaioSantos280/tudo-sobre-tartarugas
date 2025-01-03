@@ -257,16 +257,6 @@ nav ul.menu li a:hover {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
-@media (max-width: 768px) {
-    nav ul.menu {
-        gap: 2rem; /* Aumenta o espaçamento entre os itens */
-        flex-direction: column; /* Organiza os itens em coluna */
-    }
-
-    nav ul.menu li a {
-        padding: 0.8rem 1.5rem; /* Aumenta o preenchimento dos itens */
-    }
-}
 
 @media (max-width: 768px) {
     nav ul.menu {
