@@ -297,8 +297,8 @@ nav ul.menu li a:hover {
     }
 
     nav ul.menu li {
-        width: 30%; /* Ajusta para três itens por linha */
-        text-align: center;
+        width: 45%; /* Dois itens por linha */
         margin-bottom: 1rem;
+        text-align: center;
     }
 }
