@@ -262,19 +262,6 @@ nav ul.menu li a:hover {
     nav ul.menu {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between; /* Espaça os itens igualmente */
-        gap: 1rem;
-    }
-
-    nav ul.menu li {
-        width: 48%; /* Controla o tamanho dos itens para ficarem lado a lado */
-    }
-}
-
-@media (max-width: 768px) {
-    nav ul.menu {
-        display: flex;
-        flex-wrap: wrap;
         gap: 1rem;
         justify-content: space-between;
     }
