@@ -122,3 +122,31 @@ section:hover {
     transform: translateY(-5px);
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
+/* Estilo para o link */
+footer a {
+    color: #0889da; /* Cor do link */
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease; /* Transição suave */
+}
+
+footer a:hover {
+    color: #2949da; /* Cor do link ao passar o mouse */
+    transform: scale(1.1); /* Aumenta um pouco o tamanho */
+}
+
+footer a:active {
+    animation: click-animation 0.3s ease-out; /* Animação de clique */
+}
+
+@keyframes click-animation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2); /* Aumenta o tamanho */
+    }
+    100% {
+        transform: scale(1); /* Retorna ao tamanho normal */
+    }
+}
