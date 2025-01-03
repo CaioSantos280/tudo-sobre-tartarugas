@@ -207,3 +207,52 @@ footer a:active {
         font-size: 1.5rem;
     }
 }
+
+header {
+    background: linear-gradient(135deg, #48cae4, #0077b6);
+    color: #fff;
+    text-align: center;
+    padding: 3rem 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    position: relative;
+}
+
+header h1 {
+    font-size: 4rem;
+    margin: 0;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    animation: slideIn 1s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+nav ul.menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 0.7rem 1.2rem;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    background-color: #0077b6;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+nav ul.menu li a:hover {
+    background-color: #023047;
+    color: #fff;
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
