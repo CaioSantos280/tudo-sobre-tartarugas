@@ -270,3 +270,16 @@ nav ul.menu li a:hover {
         width: 48%; /* Controla o tamanho dos itens para ficarem lado a lado */
     }
 }
+
+@media (max-width: 768px) {
+    nav ul.menu {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: space-between;
+    }
+
+    nav ul.menu li {
+        width: calc(33.33% - 1rem); /* 3 itens por linha, com espaço entre eles */
+    }
+}
